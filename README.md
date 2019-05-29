@@ -34,10 +34,10 @@ his new friends.
 | angry      |   >:(   | ヽ(ｏ`皿′ｏ)ﾉ |
 | bored      |   :O    |    (ΘεΘ;)     |
 | confused   |   %)    |    (゜.゜)    |
-| embarrased |   :$    |    (#^.^#)    |
+| embarrassed |   :$    |    (#^.^#)    |
 | fish       |   ><>   |   >゜))))彡   |
 | glasses    |   8D    |    (^0_0^)    |
-| grining    |   =D    |  （￣ー￣）   |
+| grinning    |   =D    |  （￣ー￣）   |
 | happy      |   :)    |  （＾ｖ＾）   |
 | kiss       |   :\*   |  (\*^3^)/~☆   |
 | sad        |   :'(   |   (Ｔ ▽ Ｔ)   |
