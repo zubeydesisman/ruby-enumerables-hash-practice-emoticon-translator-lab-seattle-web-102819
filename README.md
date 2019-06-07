@@ -129,3 +129,4 @@ help loading a YAML file.
 [ansible]: http://docs.ansible.com/YAMLSyntax.html
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/emoticon-translator' title='Emoticon Translator'>Emoticon Translator</a> on Learn.co and start learning to code for free.</p>
+
