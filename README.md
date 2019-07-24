@@ -110,11 +110,30 @@ A YAML file has an extension of `.yml`. For more info about YAML syntax, see
 [Ansible's docs][ansible]. You can read more about YAML
 [on the Wikipedia page][wiki].
 
-## Instructions
+## Notes on this Lab
 
 This is a test-driven lab so just get those specs to pass! The first step will
 be to load the YAML file in the `lib/` folder. Check out the resources below for
 help loading a YAML file.
+
+**Important**: When defining hash keys, depending on the syntax that you use,
+Ruby may automatically convert a given String key into a Symbol. So, for
+instance, if we were to open IRB and declare a hash using the hash-rocket, the
+resulting key remains a String:
+
+```ruby
+hash = {"get_emoticon" => {}}
+hash #=> {"get_emoticon"=>{}}
+```
+
+However, if the alternate syntax is used, the key will be converted:
+
+```ruby
+hash = {"get_emoticon": {}}
+hash #=> {:get_emoticon=>{}}
+```
+
+Keep this in mind as you work on this lab. The tests will accept either, but you will need to be consistent in your own code when referencing hash keys. YAML will not convert the emoticons to symbols when reading `emoticons.yml`.
 
 ## Resources
 
@@ -129,5 +148,3 @@ help loading a YAML file.
 [ansible]: http://docs.ansible.com/YAMLSyntax.html
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/emoticon-translator' title='Emoticon Translator'>Emoticon Translator</a> on Learn.co and start learning to code for free.</p>
-
-
