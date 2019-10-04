@@ -1,4 +1,4 @@
-require 'yaml'
+require_relative 'yaml'
 # thing = YAML.load_file('lib/emoticons.yml')
 # puts thing.inspect
 
